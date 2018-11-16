@@ -8,6 +8,8 @@ function Demo() {
   return (
     <div>
         <Calendar isMobile={false}
+          onDateSelected={(dateSelected) => alert(dateSelected)}
+          onTimeSelected={(timeSelected) => alert(timeSelected)}
           listOfDates={
             [{date: '01/11/2018', surgePrice: 1000}, {date: '15/11/2018', surgePrice: 100}, {date: '01/12/2018', surgePrice: 2000}, {date: '10/10/2018'}]
           } 

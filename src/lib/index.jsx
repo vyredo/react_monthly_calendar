@@ -15,7 +15,9 @@ class DesktopCalendar  extends React.PureComponent{
                 time: PropTypes.string,
                 surgePrice: PropTypes.number
             })
-        )
+        ),
+        onDateSelected: PropTypes.func,
+        onTimeSelected: PropTypes.func
     }
 
     render(){
@@ -27,6 +29,8 @@ class DesktopCalendar  extends React.PureComponent{
               </div>
               <div style={{display: 'flex', justifyContent: 'center'}}>
                 <Calendar
+                  onDateSelected={this.props.onDateSelected}
+                  onTimeSelected={this.props.onTimeSelected}
                   listOfDates={this.props.listOfDates || []} 
                   listOfTimes={this.props.listOfTimes || []}
                 />
