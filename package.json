@@ -1,6 +1,6 @@
 {
-  "name": "react-monthly-calendar",
-  "version": "0.1.0",
+  "name": "monthly-calendar",
+  "version": "0.1.1",
   "description": "A Monthly Calendar for react",
   "main": "lib/index.js",
   "scripts": {
@@ -9,15 +9,15 @@
     "lib:watch": "babel src/lib -w -d lib --copy-files",
     "docs": "webpack-dev-server --mode development",
     "docs:prod": "webpack --mode production"
-  },
+  },  
   "keywords": [
     "calendar",
     "react"
   ],
   "license": "MIT",
   "peerDependencies": {
-    "react": "15.3.0",
-    "react-dom": "15.3.0"
+    "react": "16.0.0 || 15.3.0",
+    "react-dom": "16.0.0 || 15.3.0"
   },
   "devDependencies": {
     "@babel/cli": "7.0.0-beta.46",
