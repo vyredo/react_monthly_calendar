@@ -1,6 +1,6 @@
 {
   "name": "monthly-calendar",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "A Monthly Calendar for react",
   "main": "lib/index.js",
   "scripts": {

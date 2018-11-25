@@ -37,9 +37,6 @@ class DesktopCalendar  extends React.PureComponent{
               </div>
               <div>
                 <div style={{borderTop: '1px solid rgb(0,0,0,0.2)'}}/>
-                <div>
-                  <button>confirm</button>
-                </div>
               </div>
             </div>
           );
