@@ -1,6 +1,3 @@
-# React calendar
-based on https://github.com/markusenglund/react-npm-component-starter
-
 ## How To Run
 1. `npm install --save monthly-calendar`
 
